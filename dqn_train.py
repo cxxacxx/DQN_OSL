@@ -286,7 +286,7 @@ lastMove = direction
 #f=open('reward','w+')
 
 for epoch in range(nbEpoch):
-    plume = Plume.model(diffusion = 0.1, decay = 0.004, width = 1,scaling = np.random.randint(40,40))
+    plume = Plume.model(diffusion = 0.1, decay = 0.004, width = 1,scaling = np.random.randint(20,40))
     nActions = 0
     fail = False
     success = False
